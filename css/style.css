@@ -1,4 +1,4 @@
-* {
+/** {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     box-sizing: border-box;
@@ -6,9 +6,11 @@
     margin: o;
 }
 
+
 body {
     background-image: url(../img/Breaking-Bad.jpg);
 }
+
 
 img {
     width: 100%;
@@ -29,7 +31,7 @@ header {
 }
 
 
-/*FORM*/
+
 
 form {
     border: 1px solid green;
@@ -66,3 +68,47 @@ form label {
     width: 70%;
     padding: 5px;
 }
+
+.button {
+    border: 2px solid green;
+    background-color: #ff0000d3;
+    padding: 8px 5px;
+    color: white;
+    border-radius: 10px;
+    width: 900px;
+    transition: background-color 2s ease-in-out;
+}
+
+.button1 {
+    border: 2px solid green;
+    background-color: #00ffea;
+    padding: 8px 5px;
+    color: yellow;
+    border-radius: 10px;
+    width: 900px;
+    transition: background-color 2s ease-in-out;
+}
+
+.button:hover {
+    background-color: green;
+    color: black;
+}
+
+.button1:hover {
+    background-color: green;
+    color: black;
+}
+
+@media(max-width: 600px) {
+    body {
+        background-color: red;
+        transition: background-color 2s ease-in-out;
+    }
+    .button,
+    .button1 {
+        width: 500px;
+        transition: width 2s;
+        background-color: blue;
+    }
+}
+*/
