@@ -35,109 +35,120 @@
             </div>
         </nav>
         <div class="container">
-            <form>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Name" required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputSurname">Surname</label>
-                        <input type="text" class="form-control" id="inputSurname" placeholder="Surname" required>
-                    </div>
+            <div>
+                <div class="card-header">
+                    Sign Up
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputPassword">Password</label>
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
-                    </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputSurname">Surname</label>
+                                <input type="text" class="form-control" id="inputSurname" placeholder="Surname" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword">Password</label>
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-10">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Address" required>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">House number</label>
+                                <input type="text" class="form-control" id="inputNumber" placeholder="House number" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="City" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control" required>
+                                              <option selected>Choose...</option>
+                                              
+                                              <option value="AL">Albania</option>
+                                              <option value="AD">Andorra</option>
+                                              <option value="AT">Austria</option>
+                                              <option value="BY">Belarus</option>
+                                              <option value="BE">Belgium</option>
+                                              <option value="BA">Bosnia and Herzegovina</option>
+                                              <option value="BG">Bulgaria</option>
+                                              <option value="HR">Croatia (Hrvatska)</option>
+                                              <option value="CY">Cyprus</option>
+                                              <option value="CZ">Czech Republic</option>
+                                              <option value="DK">Denmark</option>
+                                              <option value="EE">Estonia</option>
+                                              <option value="FO">Faroe Islands</option>
+                                              <option value="FI">Finland</option>
+                                              <option value="FR">France</option>
+                                              <option value="GI">Gibraltar</option>
+                                              <option value="DE">Germany</option>
+                                              <option value="GR">Greece</option>
+                                              <option value="GL">Greenland</option>
+                                              <option value="HU">Hungary</option>
+                                              <option value="IS">Iceland</option>
+                                              <option value="IE">Ireland</option>
+                                              <option value="IT">Italy</option>
+                                              <option value="LV">Latvia</option>
+                                              <option value="LI">Liechtenstein</option>
+                                              <option value="LT">Lithuania</option>
+                                              <option value="LU">Luxembourg</option>
+                                              <option value="MK">Macedonia</option>
+                                              <option value="MT">Malta</option>
+                                              <option value="MD">Moldova</option>
+                                              <option value="MC">Monaco</option>
+                                              <option value="ME">Montenegro</option>
+                                              <option value="NL">Netherlands</option>
+                                              <option value="NO">Norway</option>
+                                              <option value="PL">Poland</option>
+                                              <option value="PT">Portugal</option>
+                                              <option value="RO">Romania</option>
+                                              <option value="SM">San Marino</option>
+                                              <option value="RS">Serbia</option>
+                                              <option value="SK">Slovakia</option>
+                                              <option value="SI">Slovenia</option>
+                                              <option value="ES">Spain</option>
+                                              <option value="SJ">Svalbard and Jan Mayen Islands</option>
+                                              <option value="SE">Sweden</option>
+                                              <option value="CH">Switzerland</option>
+                                              <option value="TR">Turkey</option>
+                                              <option value="UA">Ukraine</option>
+                                              <option value="GB">United Kingdom</option>
+                                              <option value="VA">Vatican City State</option>
+                                            </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                <label class="form-check-label" for="gridCheck">
+                                              Privacy (informativa sul trattamento dei dati personali)
+                                            </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-10">
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Address" required>
-                    </div>
-                    <div class="form-group col-md-2">
-                        <label for="inputZip">House number</label>
-                        <input type="text" class="form-control" id="inputNumber" placeholder="House number" required>
-                    </div>
+                <div class="card-footer text-muted">
+                    2 days ago
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="City" required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputState">State</label>
-                        <select id="inputState" class="form-control" required>
-                              <option selected>Choose...</option>
-                              
-                              <option value="AL">Albania</option>
-                              <option value="AD">Andorra</option>
-                              <option value="AT">Austria</option>
-                              <option value="BY">Belarus</option>
-                              <option value="BE">Belgium</option>
-                              <option value="BA">Bosnia and Herzegovina</option>
-                              <option value="BG">Bulgaria</option>
-                              <option value="HR">Croatia (Hrvatska)</option>
-                              <option value="CY">Cyprus</option>
-                              <option value="CZ">Czech Republic</option>
-                              <option value="DK">Denmark</option>
-                              <option value="EE">Estonia</option>
-                              <option value="FO">Faroe Islands</option>
-                              <option value="FI">Finland</option>
-                              <option value="FR">France</option>
-                              <option value="GI">Gibraltar</option>
-                              <option value="DE">Germany</option>
-                              <option value="GR">Greece</option>
-                              <option value="GL">Greenland</option>
-                              <option value="HU">Hungary</option>
-                              <option value="IS">Iceland</option>
-                              <option value="IE">Ireland</option>
-                              <option value="IT">Italy</option>
-                              <option value="LV">Latvia</option>
-                              <option value="LI">Liechtenstein</option>
-                              <option value="LT">Lithuania</option>
-                              <option value="LU">Luxembourg</option>
-                              <option value="MK">Macedonia</option>
-                              <option value="MT">Malta</option>
-                              <option value="MD">Moldova</option>
-                              <option value="MC">Monaco</option>
-                              <option value="ME">Montenegro</option>
-                              <option value="NL">Netherlands</option>
-                              <option value="NO">Norway</option>
-                              <option value="PL">Poland</option>
-                              <option value="PT">Portugal</option>
-                              <option value="RO">Romania</option>
-                              <option value="SM">San Marino</option>
-                              <option value="RS">Serbia</option>
-                              <option value="SK">Slovakia</option>
-                              <option value="SI">Slovenia</option>
-                              <option value="ES">Spain</option>
-                              <option value="SJ">Svalbard and Jan Mayen Islands</option>
-                              <option value="SE">Sweden</option>
-                              <option value="CH">Switzerland</option>
-                              <option value="TR">Turkey</option>
-                              <option value="UA">Ukraine</option>
-                              <option value="GB">United Kingdom</option>
-                              <option value="VA">Vatican City State</option>
-                            </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                        <label class="form-check-label" for="gridCheck">
-                              Privacy (informativa sul trattamento dei dati personali)
-                            </label>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-            </form>
+            </div>
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

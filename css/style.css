@@ -5,3 +5,11 @@
 #mainMenu {
     margin-bottom: 40px;
 }
+
+.card-header {
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+}
