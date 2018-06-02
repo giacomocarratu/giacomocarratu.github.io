@@ -4,6 +4,7 @@
 
 #mainMenu {
     margin-bottom: 40px;
+    font-size: 25px;
 }
 
 .card-header {
@@ -12,4 +13,28 @@
 
 .card-footer {
     text-align: center;
+}
+
+.golf {
+    text-align: center;
+}
+
+.Polo {
+    text-align: center;
+}
+
+#polo {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#golf {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    text-align: left;
 }
