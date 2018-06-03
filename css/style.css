@@ -19,7 +19,11 @@
     text-align: center;
 }
 
-.Polo {
+.polo {
+    text-align: center;
+}
+
+.troc {
     text-align: center;
 }
 
@@ -30,6 +34,12 @@
 }
 
 #golf {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#troc {
     text-align: left;
     font-size: 30px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
