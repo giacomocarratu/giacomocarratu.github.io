@@ -19,10 +19,16 @@
     text-align: center;
 }
 
-#auto {
+.autoid {
     text-align: left;
-    font-size: 30px;
+    font-size: 55px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    margin: 50px;
+}
+
+.car-image {
+    border-image-width: 100%;
 }
 
 h4 {
@@ -46,4 +52,9 @@ h4 {
     text-align: left;
     font-size: 30px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
 }
